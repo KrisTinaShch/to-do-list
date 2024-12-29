@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Vinyl&display=swap');
+body{
+    background: #191919;
+    font-family: "Open Sans", serif;
+    color: #F8F5FF;
+}
+h1{
+    font-family: "Rubik Vinyl", serif;
+    text-transform: uppercase;
+    font-size: 55px;
+    word-spacing: 35px;
+    font-weight: 900;
+    padding-top: 130px;
+}
+.banner{
+    height: 30vw;
+    background: url(img/main-banner.jpg) 0 70%/cover no-repeat;
+    text-align: center;
+}
