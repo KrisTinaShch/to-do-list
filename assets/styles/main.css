@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Vinyl&display=swap");
+body {
+  background: #191919;
+  font-family: "Open Sans", serif;
+  color: #F8F5FF;
+}
+
+h1 {
+  font-family: "Rubik Vinyl", serif;
+  text-transform: uppercase;
+  font-size: 55px;
+  word-spacing: 35px;
+  font-weight: 900;
+  padding-top: 130px;
+}
+
+h2 {
+  font-size: 20px;
+  position: relative;
+  padding: 5px 0;
+  padding-left: 30px;
+  font-weight: 600;
+}
+h2::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 1px;
+  background-color: #fff;
+  top: 10px;
+  left: -5px;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.banner {
+  height: 30vw;
+  background: url(../img/main-banner.jpg) 0 70%/cover no-repeat;
+  text-align: center;
+}
+
+.todo-form__input {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #EF8E99;
+  border-radius: 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.todo-form__input:checked {
+  background-color: #EF8E99;
+  border-color: #EF8E99;
+}
+.todo-form__input:checked::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  background-color: #EF8E99;
+  border-radius: 50%;
+}
